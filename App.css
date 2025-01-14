@@ -1,0 +1,33 @@
+.app {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #E8F5E9;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  color: #4CAF50;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.title {
+  animation: float 3s ease-in-out infinite;
+}
+
